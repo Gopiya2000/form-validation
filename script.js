@@ -46,7 +46,6 @@ class FormValidation{
         }
     }
     validateEmail(){
-        //abc@gmail.co.in
         const regExp = /^([a-zA-Z0-9-_\.]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,10})(\.[a-zA-Z]{2,8})?$/
         if(this.formValues.email === ""){
             this.errorValues.emailErr = "* Please Enter Valid Email"
